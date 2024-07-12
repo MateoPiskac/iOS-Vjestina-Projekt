@@ -9,21 +9,44 @@
 /* Begin PBXBuildFile section */
 		2C66F5332C3EE30A00E7D091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F5322C3EE30A00E7D091 /* AppDelegate.swift */; };
 		2C66F5352C3EE30A00E7D091 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F5342C3EE30A00E7D091 /* SceneDelegate.swift */; };
-		2C66F5372C3EE30A00E7D091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F5362C3EE30A00E7D091 /* ViewController.swift */; };
 		2C66F53A2C3EE30A00E7D091 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2C66F5392C3EE30A00E7D091 /* Base */; };
 		2C66F53C2C3EE30B00E7D091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C66F53B2C3EE30B00E7D091 /* Assets.xcassets */; };
-		2C66F53F2C3EE30B00E7D091 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2C66F53E2C3EE30B00E7D091 /* Base */; };
+		2C66F5482C3EE35100E7D091 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2C66F5472C3EE35100E7D091 /* Kingfisher */; };
+		2C66F54B2C3EE35A00E7D091 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2C66F54A2C3EE35A00E7D091 /* SDWebImage */; };
+		2C66F54D2C3EE35A00E7D091 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2C66F54C2C3EE35A00E7D091 /* SDWebImageMapKit */; };
+		2C66F5502C3EE36700E7D091 /* PureLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 2C66F54F2C3EE36700E7D091 /* PureLayout */; };
+		2C66F5522C3EE49700E7D091 /* CocktailDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F5512C3EE49700E7D091 /* CocktailDetailsViewController.swift */; };
+		2C66F5542C3EE4B900E7D091 /* CocktailDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F5532C3EE4B900E7D091 /* CocktailDetailsViewModel.swift */; };
+		2C66F5562C3EE6E600E7D091 /* CocktailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F5552C3EE6E600E7D091 /* CocktailModel.swift */; };
+		2C66F5582C3EE70200E7D091 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F5572C3EE70200E7D091 /* APIService.swift */; };
+		2C66F55A2C3EE7FB00E7D091 /* CocktailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F5592C3EE7FB00E7D091 /* CocktailListViewController.swift */; };
+		2C66F55C2C3EE82F00E7D091 /* CocktailListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F55B2C3EE82F00E7D091 /* CocktailListViewModel.swift */; };
+		2C66F5602C3F9A6F00E7D091 /* CocktailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F55F2C3F9A6F00E7D091 /* CocktailTableViewCell.swift */; };
+		2C66F5652C402BBF00E7D091 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2C66F5642C402BBF00E7D091 /* RealmSwift */; };
+		2C66F5672C4030DF00E7D091 /* SimpleCocktailRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F5662C4030DF00E7D091 /* SimpleCocktailRealmModel.swift */; };
+		2C66F5692C40311400E7D091 /* FavouriteCocktailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F5682C40311400E7D091 /* FavouriteCocktailViewModel.swift */; };
+		2C66F56B2C40312C00E7D091 /* FavouriteCocktailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F56A2C40312C00E7D091 /* FavouriteCocktailViewController.swift */; };
+		2C66F5702C41673400E7D091 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C66F56F2C41673400E7D091 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C66F52F2C3EE30A00E7D091 /* ShakeMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C66F5322C3EE30A00E7D091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C66F5342C3EE30A00E7D091 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C66F5362C3EE30A00E7D091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C66F5392C3EE30A00E7D091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C66F53B2C3EE30B00E7D091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C66F53E2C3EE30B00E7D091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C66F5402C3EE30B00E7D091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C66F5512C3EE49700E7D091 /* CocktailDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailsViewController.swift; sourceTree = "<group>"; };
+		2C66F5532C3EE4B900E7D091 /* CocktailDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailsViewModel.swift; sourceTree = "<group>"; };
+		2C66F5552C3EE6E600E7D091 /* CocktailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailModel.swift; sourceTree = "<group>"; };
+		2C66F5572C3EE70200E7D091 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		2C66F5592C3EE7FB00E7D091 /* CocktailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailListViewController.swift; sourceTree = "<group>"; };
+		2C66F55B2C3EE82F00E7D091 /* CocktailListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailListViewModel.swift; sourceTree = "<group>"; };
+		2C66F55F2C3F9A6F00E7D091 /* CocktailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailTableViewCell.swift; sourceTree = "<group>"; };
+		2C66F5662C4030DF00E7D091 /* SimpleCocktailRealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCocktailRealmModel.swift; sourceTree = "<group>"; };
+		2C66F5682C40311400E7D091 /* FavouriteCocktailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCocktailViewModel.swift; sourceTree = "<group>"; };
+		2C66F56A2C40312C00E7D091 /* FavouriteCocktailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCocktailViewController.swift; sourceTree = "<group>"; };
+		2C66F56F2C41673400E7D091 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C66F5652C402BBF00E7D091 /* RealmSwift in Frameworks */,
+				2C66F5502C3EE36700E7D091 /* PureLayout in Frameworks */,
+				2C66F54B2C3EE35A00E7D091 /* SDWebImage in Frameworks */,
+				2C66F54D2C3EE35A00E7D091 /* SDWebImageMapKit in Frameworks */,
+				2C66F5482C3EE35100E7D091 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +84,32 @@
 		2C66F5312C3EE30A00E7D091 /* ShakeMate */ = {
 			isa = PBXGroup;
 			children = (
+				2C66F56C2C40332800E7D091 /* Models */,
 				2C66F5322C3EE30A00E7D091 /* AppDelegate.swift */,
 				2C66F5342C3EE30A00E7D091 /* SceneDelegate.swift */,
-				2C66F5362C3EE30A00E7D091 /* ViewController.swift */,
+				2C66F5592C3EE7FB00E7D091 /* CocktailListViewController.swift */,
+				2C66F55F2C3F9A6F00E7D091 /* CocktailTableViewCell.swift */,
+				2C66F55B2C3EE82F00E7D091 /* CocktailListViewModel.swift */,
+				2C66F5572C3EE70200E7D091 /* APIService.swift */,
+				2C66F5682C40311400E7D091 /* FavouriteCocktailViewModel.swift */,
+				2C66F56A2C40312C00E7D091 /* FavouriteCocktailViewController.swift */,
+				2C66F5532C3EE4B900E7D091 /* CocktailDetailsViewModel.swift */,
+				2C66F5512C3EE49700E7D091 /* CocktailDetailsViewController.swift */,
 				2C66F5382C3EE30A00E7D091 /* Main.storyboard */,
 				2C66F53B2C3EE30B00E7D091 /* Assets.xcassets */,
-				2C66F53D2C3EE30B00E7D091 /* LaunchScreen.storyboard */,
+				2C66F56F2C41673400E7D091 /* Launch Screen.storyboard */,
 				2C66F5402C3EE30B00E7D091 /* Info.plist */,
 			);
 			path = ShakeMate;
+			sourceTree = "<group>";
+		};
+		2C66F56C2C40332800E7D091 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C66F5662C4030DF00E7D091 /* SimpleCocktailRealmModel.swift */,
+				2C66F5552C3EE6E600E7D091 /* CocktailModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +128,13 @@
 			dependencies = (
 			);
 			name = ShakeMate;
+			packageProductDependencies = (
+				2C66F5472C3EE35100E7D091 /* Kingfisher */,
+				2C66F54A2C3EE35A00E7D091 /* SDWebImage */,
+				2C66F54C2C3EE35A00E7D091 /* SDWebImageMapKit */,
+				2C66F54F2C3EE36700E7D091 /* PureLayout */,
+				2C66F5642C402BBF00E7D091 /* RealmSwift */,
+			);
 			productName = ShakeMate;
 			productReference = 2C66F52F2C3EE30A00E7D091 /* ShakeMate.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +163,12 @@
 				Base,
 			);
 			mainGroup = 2C66F5262C3EE30A00E7D091;
+			packageReferences = (
+				2C66F5462C3EE35100E7D091 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				2C66F5492C3EE35A00E7D091 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				2C66F54E2C3EE36700E7D091 /* XCRemoteSwiftPackageReference "PureLayout" */,
+				2C66F5612C402BBF00E7D091 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 2C66F5302C3EE30A00E7D091 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C66F53C2C3EE30B00E7D091 /* Assets.xcassets in Resources */,
-				2C66F53F2C3EE30B00E7D091 /* Base in Resources */,
+				2C66F5702C41673400E7D091 /* Launch Screen.storyboard in Resources */,
 				2C66F53A2C3EE30A00E7D091 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +196,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C66F5372C3EE30A00E7D091 /* ViewController.swift in Sources */,
+				2C66F56B2C40312C00E7D091 /* FavouriteCocktailViewController.swift in Sources */,
+				2C66F55A2C3EE7FB00E7D091 /* CocktailListViewController.swift in Sources */,
+				2C66F5582C3EE70200E7D091 /* APIService.swift in Sources */,
+				2C66F5562C3EE6E600E7D091 /* CocktailModel.swift in Sources */,
+				2C66F5602C3F9A6F00E7D091 /* CocktailTableViewCell.swift in Sources */,
+				2C66F5692C40311400E7D091 /* FavouriteCocktailViewModel.swift in Sources */,
+				2C66F5542C3EE4B900E7D091 /* CocktailDetailsViewModel.swift in Sources */,
+				2C66F5522C3EE49700E7D091 /* CocktailDetailsViewController.swift in Sources */,
 				2C66F5332C3EE30A00E7D091 /* AppDelegate.swift in Sources */,
 				2C66F5352C3EE30A00E7D091 /* SceneDelegate.swift in Sources */,
+				2C66F55C2C3EE82F00E7D091 /* CocktailListViewModel.swift in Sources */,
+				2C66F5672C4030DF00E7D091 /* SimpleCocktailRealmModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +220,6 @@
 				2C66F5392C3EE30A00E7D091 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2C66F53D2C3EE30B00E7D091 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C66F53E2C3EE30B00E7D091 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,7 +354,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShakeMate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -322,7 +381,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShakeMate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -361,6 +420,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C66F5462C3EE35100E7D091 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+		2C66F5492C3EE35A00E7D091 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.4;
+			};
+		};
+		2C66F54E2C3EE36700E7D091 /* XCRemoteSwiftPackageReference "PureLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PureLayout/PureLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.9;
+			};
+		};
+		2C66F5612C402BBF00E7D091 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C66F5472C3EE35100E7D091 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C66F5462C3EE35100E7D091 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		2C66F54A2C3EE35A00E7D091 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C66F5492C3EE35A00E7D091 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		2C66F54C2C3EE35A00E7D091 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C66F5492C3EE35A00E7D091 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		2C66F54F2C3EE36700E7D091 /* PureLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C66F54E2C3EE36700E7D091 /* XCRemoteSwiftPackageReference "PureLayout" */;
+			productName = PureLayout;
+		};
+		2C66F5642C402BBF00E7D091 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C66F5612C402BBF00E7D091 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C66F5272C3EE30A00E7D091 /* Project object */;
 }

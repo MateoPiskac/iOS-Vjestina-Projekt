@@ -1,0 +1,51 @@
+{
+  "originHash" : "82f1dd74335728188d458d7822406048cd3323d0c72e68742a8b95937806c11b",
+  "pins" : [
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "2ef543ee21d63734e1c004ad6c870255e8716c50",
+        "version" : "7.12.0"
+      }
+    },
+    {
+      "identity" : "purelayout",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PureLayout/PureLayout",
+      "state" : {
+        "revision" : "5561683c96dc49b023c1299bfe4f6fbeed5f8199",
+        "version" : "3.1.9"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "f889f79a2301208fd9d322d07abfc883b8f2046c",
+        "version" : "14.10.2"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "235d0034ee3b25041c708e8aa745e3eb6b334198"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage",
+      "state" : {
+        "revision" : "be0bcd7823ce56629948491f2eaeaa19979514f7",
+        "version" : "5.19.4"
+      }
+    }
+  ],
+  "version" : 3
+}

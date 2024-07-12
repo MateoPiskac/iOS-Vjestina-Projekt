@@ -10,12 +10,32 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
+            
+        window = UIWindow(frame: UIScreen.main.bounds)
+
+                let cocktailViewModel = CocktailViewModel()
+                let favoriteCocktailViewModel = FavoriteCocktailViewModel()
+
+                let cocktailListVC = CocktailListViewController(viewModel: cocktailViewModel)
+                let favoriteCocktailVC = FavoriteCocktailViewController(viewModel: favoriteCocktailViewModel)
+
+                let tabBarController = UITabBarController()
+                tabBarController.viewControllers = [
+                    UINavigationController(rootViewController: cocktailListVC),
+                    UINavigationController(rootViewController: favoriteCocktailVC)
+                ]
+
+                cocktailListVC.tabBarItem = UITabBarItem(title: "Cocktails", image: UIImage(systemName: "list.bullet"), tag: 0)
+                favoriteCocktailVC.tabBarItem = UITabBarItem(title: "Favorites", image: UIImage(systemName: "star.fill"), tag: 1)
+
+                window?.rootViewController = tabBarController
+                window?.makeKeyAndVisible()
+
+                return true
+        }
 
     // MARK: UISceneSession Lifecycle
 
@@ -31,6 +51,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-
 }
+
 
